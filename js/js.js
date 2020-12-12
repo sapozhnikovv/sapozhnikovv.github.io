@@ -1,4 +1,4 @@
-
+$(document).ready(function () {
 	var language = window.navigator ? (window.navigator.language ||
 									   window.navigator.systemLanguage ||
 									   window.navigator.userLanguage) : "en";
@@ -11,3 +11,4 @@
 				location.href = "ru.html";
 			}
 	}
+});

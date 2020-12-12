@@ -1,0 +1,97 @@
+footer > div { display: none; }
+.c{text-align: center;}
+.l{text-align: left;}
+.r{text-align: right;}
+
+.even_bg:nth-child(even) {background: #EAEDF1;}
+footer{padding-top: 69px;}
+
+.brand {font-size: 20px;}
+.caption_white {color: white;}
+.content { background: #0b0b0d !important;}
+
+.row_cell {padding-top: 20px;padding-bottom: 25px;color: #fff;text-shadow: 0 2px 2px rgba(0,0,0,0.6);}
+.text{text-align: left;}
+.navbar { margin-bottom: 0 !important; }
+@media screen and (max-width: 600px) {
+	.main_img img {height:450px}
+	.content .text {
+		margin-top: -153px;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 650px) {
+	.main_img img {height:490px}
+	.content .text {
+		margin-top: -135px;
+	}
+}
+@media screen and (min-width: 650px) and (max-width: 768px) {
+	.main_img img {height:530px}
+	.content .text {
+		margin-top: -135px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.main_img img {height:600px}
+	.content .text {
+		margin-top: 50px;
+	}
+	
+	.viber_Mobile { display: none; }
+	#icons a > img {
+		width: 60px;
+		margin: 25px 6px 0px 6px; 
+	}
+}
+@media screen and (max-width: 768px) {
+	.content .text h3, .content .text p { background: rgba(0,0,0, 0.38); }
+
+	.viber_PC { display: none; }
+	#icons {
+		text-align: center; 
+	}
+	#icons a > img {
+		width: 50px;
+		margin: 25px 6px 0px 3px; 
+	}
+	
+	#links { text-align: center; }
+	.icon-copy {
+		width: 27px !important;
+		height: 27px !important;
+	}
+}
+
+#links {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#links a, footer a {
+	color: #000 !important;
+	font-size: 18px;
+}
+#links a:visited, footer a:visited,
+#links a:active, footer a:active {
+	color: #000 !important;
+}
+
+#about p {
+	font-size: 18px;
+}
+.caption_white a,
+.caption_white a:active,
+.caption_white a:visited {
+	color: #fff !important;
+}
+.icon-copy {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 2px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/icon_copy.svg);
+    background-size: 100%;
+}
+
+#mail-input { position:absolute; top:-40px; }

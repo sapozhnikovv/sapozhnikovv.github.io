@@ -50,6 +50,7 @@ footer{padding-top: 69px;}
 		float: right;
 		margin: 14px 18px 0 0;
 	}
+	#cl_s { display: none; }
 	.viber_PC { display: none; }
 	#icons {
 		text-align: center; 

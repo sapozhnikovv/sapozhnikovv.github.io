@@ -7,6 +7,6 @@ if (!window.location.hostname.includes("192.168.") &&
 	!window.location.hostname.includes("localhost")){
 		if (language === "ru" && (location.href === "https://sapozhnikovv.github.io/" || location.href === "https://sapozhnikovv.github.io"))
 		{ 
-			location.href = "ru.html";
+			location.href = "index_ru.html";
 		}
 }

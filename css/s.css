@@ -20,10 +20,10 @@ footer{padding-top: 69px;}
 @media screen and (min-width: 600px) and (max-width: 650px) {
 
 }
-@media screen and (min-width: 650px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 767px) {
 
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 767px) and (max-width: 992px) {
 	.change_lang {
 		position: absolute;
 		right: 10%;
@@ -36,7 +36,7 @@ footer{padding-top: 69px;}
 		margin: 14px 18px 0 0;
 	}
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 	.right { float: right; }
 	#cl_f { display: none; }
 	.viber_Mobile { display: none; }
@@ -45,7 +45,7 @@ footer{padding-top: 69px;}
 		margin: 25px 6px 0px 6px; 
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.change_lang {
 		float: right;
 		margin: 14px 18px 0 0;
